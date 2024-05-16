@@ -1,8 +1,60 @@
+@font-face {
+    font-family: medium1;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+@font-face {
+    font-family: maxius;
+    src: url(./Mazius-Extraitalic.121a71a7.ttf);
+}
 a{
     transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
 }
-
+p{
+    color:white;
+}
 a:hover{
     scale: 1.2;
     color: gray;
 }
+.text h1{
+    white-space: nowrap;
+    font-stretch: 500%;
+    /* transition: ; */
+}
+*{
+  color: white;
+}
+    .main {
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%), 
+                    radial-gradient(ellipse at center, #b37544 30%, #B37544 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+    .main2 {
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%), 
+                    radial-gradient(ellipse at center, #b34444 30%, #b34d44 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+    .main3 {
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%), 
+                    radial-gradient(ellipse at center, #44b358 30%, #44b358 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+    .main4 {
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%), 
+                    radial-gradient(ellipse at center, #b344b3 30%, #a844b3 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .end img:hover{
+        cursor: pointer;
+      }
+
+
+      svg{
+        display: none;
+      }
